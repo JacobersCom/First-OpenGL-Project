@@ -1,5 +1,5 @@
-
-#include <GLFW/glad.h>
+#include <KHR/khrplatform.h>
+#include <glad/glad.h>
 #include <GLFW/glfw3.h>
 #include <iostream>
 

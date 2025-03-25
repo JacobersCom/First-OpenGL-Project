@@ -18,5 +18,30 @@
     <ClCompile Include="src\app.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="x64\Debug\Learning_OpenGL.pdb" />
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OpenGL_Dependencies\include\GLAD\glad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL_Dependencies\include\GLAD\khrplatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL_Dependencies\include\GLFW\glfw3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL_Dependencies\include\GLFW\glfw3native.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="OpenGL_Dependencies\lib\glfw3.lib" />
   </ItemGroup>
 </Project>
